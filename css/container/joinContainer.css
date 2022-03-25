@@ -1,0 +1,65 @@
+
+
+/*join-container*/
+.join-container{
+  width: 100%;
+  height: auto;
+}
+.join-container .inner-join{
+  width: 100%;
+  height: calc(100vh - 200px);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.join-container .inner-join .join-con{
+  background-color: #d3d4d4;
+  flex: 0 1 500px;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.join-container .inner-join .join-con h1.title{
+  background-color: #362104;
+  color: #fff;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+}
+.join-container .inner-join .join-con .join-form{
+
+}
+.join-container .inner-join .join-con .join-form ul{}
+.join-container .inner-join .join-con .join-form ul>li{
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  line-height: 30px;
+}
+.join-container .inner-join .join-con .join-form ul>li:not(.li1) input{
+  line-height: 20px;
+  border: 0;
+  outline: 0;
+}
+.join-container .inner-join .join-con .join-form ul>li.li1{
+ 
+}
+.join-container .inner-join .join-con .join-form ul>li.li1 select{
+  margin-right: 10px;
+  padding: 5px;
+}
+.join-container .inner-join .join-con .join-form ul>li.li1 input{
+  margin-right: 10px;
+  padding: 5px;
+}
+.join-container .inner-join .join-con .join-form ul>li.li2{
+  background-color: #299cb1;
+  text-align: center;
+}
+.join-container .inner-join .join-con .join-form ul>li.li2 input{
+  background-color: #299cb1;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}

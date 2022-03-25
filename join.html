@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>join</title>
+  <script src="js/js_join.js" defer></script>
+  <link rel="stylesheet" href="css/join.css">
+</head>
+<body>
+  <div id="wrap">
+    <div class="header">
+      <div class="inner-header">
+        <div class="nav">
+          <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+          <div class="gnb">
+            <ul>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">SHOP</a></li>
+              <li><a href="#">ORDER</a></li>
+              <li><a href="#">LOGIN</a></li>
+              <li><a href="join.html">JOIN</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="inner-container">
+        <div class="join-container">
+          <div class="inner-join">
+            <div class="join-con">
+              <h1 class="title">회원가입</h1>
+              <div class="join-form">
+                <form action="joinOk.do" method="post" id="joinForm">
+                  <ul>
+                    <li>
+                      <div class="input-con">
+                        <input type="text" name="userId" id="userId" placeholder="아이디 입력">                       
+                      </div>
+                    </li>
+                    <li>
+                      <div class="input-con">
+                        <input type="password" name="userPw" id="userPw" placeholder="비밀번호 입력">
+                      </div>
+                    </li>
+                    <li>
+                      <div class="input-con">
+                        <input type="email" name="userEmail" id="userEmail" placeholder="이메일 확인">
+                        
+                      </div>
+                    </li>
+                    <li>
+                      <div class="input-con">
+                        <input type="text" name="userName" id="userName" placeholder="이름 입력">
+                        
+                      </div>
+                    </li>
+                    <li class="li1">
+                      <div class="input-con">
+                        <select name="phone" class="phone">
+                          <option value="0" selected>전화번호</option>
+                          <option value="010">010</option>
+                          <option value="011">011</option>
+                        </select>
+                        <input type="text" name="phone" class="phone" size="4" maxlength="4">
+                        <input type="text" name="phone" class="phone" size="4" maxlength="4">
+
+                      </div>
+                    </li>
+                    <li class="li2">
+                      <input type="button" value="회원가입" id="joinBtn">
+                    </li>
+                    <li class="li2">
+                      <input type="reset" value="취소">
+                    </li>
+                  </ul>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="inner-footer">
+        <div class="fcon">
+          <p>All Rights are reserved by
+            <a href="#">LSR</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
